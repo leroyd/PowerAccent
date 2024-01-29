@@ -138,7 +138,7 @@ internal static class Languages
             case LetterKey._9:
                 return new char[] { '₉', '⁹' };
             case LetterKey.A:
-                return new char[] { 'á', 'à', 'ä', 'â', 'ă', 'å', 'α', 'ā', 'ą', 'ȧ', 'ã', 'æ' };
+                return new char[] { 'á', 'à', 'ä', 'â', 'ă', 'å', 'α', 'ā', 'ą', 'ȧ', 'ã', 'æ', 'ª' };
             case LetterKey.B:
                 return new char[] { 'ḃ', 'β' };
             case LetterKey.C:
@@ -166,7 +166,7 @@ internal static class Languages
             case LetterKey.N:
                 return new char[] { 'ñ', 'ń', 'ŋ', 'ň', 'ņ', 'ṅ', 'ⁿ', 'ν' };
             case LetterKey.O:
-                return new char[] { 'ô', 'ó', 'ö', 'ő', 'ò', 'ō', 'ȯ', 'ø', 'õ', 'œ', 'ω' };
+                return new char[] { 'ô', 'ó', 'ö', 'ő', 'ò', 'ō', 'ȯ', 'ø', 'õ', 'œ', 'ω', 'º' };
             case LetterKey.P:
                 return new char[] { 'ṗ', '₽', 'π', 'φ', 'ψ' };
             case LetterKey.R:
@@ -318,7 +318,7 @@ internal static class Languages
         switch (letter)
         {
             case LetterKey.A:
-                return new char[] { 'á' };
+                return new char[] { 'á', 'ª' };
             case LetterKey.E:
                 return new char[] { 'é', '€' };
             case LetterKey.I:
@@ -326,7 +326,7 @@ internal static class Languages
             case LetterKey.N:
                 return new char[] { 'ñ' };
             case LetterKey.O:
-                return new char[] { 'ó' };
+                return new char[] { 'ó', 'º' };
             case LetterKey.U:
                 return new char[] { 'ú', 'ü' };
             case LetterKey._:
@@ -478,7 +478,7 @@ internal static class Languages
         switch (letter)
         {
             case LetterKey.A:
-                return new char[] { 'á', 'à', 'â', 'ã' };
+                return new char[] { 'á', 'à', 'â', 'ã', 'ª' };
             case LetterKey.C:
                 return new char[] { 'ç' };
             case LetterKey.E:
@@ -486,7 +486,7 @@ internal static class Languages
             case LetterKey.I:
                 return new char[] { 'í' };
             case LetterKey.O:
-                return new char[] { 'ó', 'ô', 'õ' };
+                return new char[] { 'ó', 'ô', 'õ', 'º' };
             case LetterKey.P:
                 return new char[] { 'π' };
             case LetterKey.U:
@@ -634,13 +634,13 @@ internal static class Languages
         switch (letter)
         {
             case LetterKey.A:
-                return new char[] { 'à' };
+                return new char[] { 'à', 'ª' };
             case LetterKey.E:
                 return new char[] { 'è', 'é', '€' };
             case LetterKey.I:
                 return new char[] { 'ì', 'í' };
             case LetterKey.O:
-                return new char[] { 'ò', 'ó' };
+                return new char[] { 'ò', 'ó', 'º' };
             case LetterKey.U:
                 return new char[] { 'ù', 'ú' };
         }
